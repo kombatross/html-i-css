@@ -1,0 +1,18 @@
+body {
+
+}
+:root{
+    --czerwony: rgb(255,0,0);
+    --niebieski: rgb(0,0,255);
+    --zielony: rgb(0,255,0);
+}
+
+.divek
+{
+height: 320px;
+width: 320px;
+background-color: var(--czerwony) ;
+text-align: center;
+border: 8px var(--niebieski) solid ;
+opacity: 0.5;
+}

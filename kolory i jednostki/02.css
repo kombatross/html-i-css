@@ -1,0 +1,31 @@
+body{
+    font-size: 10px;
+}
+:root{
+    --czerwony: rgb(255,0,0);
+    --niebieski: rgb(0,0,255);
+    --zielony: rgb(0,255,0);
+}
+.element1
+{
+height: 150px;
+width: 150px;
+margin: 10px;
+background-color: var(--czerwony);
+}
+
+.element2
+{
+height: 15em;
+width: 15em;
+margin: 1em;
+background-color: var(--niebieski);
+}
+
+.element3
+{
+height: 9.375rem;
+width: 9.375rem;
+margin: 0.625rem;
+background-color: var(--zielony);
+}
