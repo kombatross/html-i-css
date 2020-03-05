@@ -1,0 +1,57 @@
+html, body {
+  border: 0;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+* {
+  padding: 20px;
+  margin: 20px 0;
+  background: rgb(255,255,0, 0.5);
+  border: 1px solid rgb(0, 0, 255, 0.6);
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: sans-serif;
+  
+}
+
+div.module h2 
+{
+background: yellowgreen;
+
+}
+div.module div{
+background: red;
+
+}
+
+div.module div h2{
+background: orange;
+}
+
+div.module h2 + p{
+background: black;
+
+}
+
+div.module> h2+p+p+p {
+  background: palegreen;
+}
+div.module>h2+p{
+
+  background:gray;
+}
+/* tutaj nasze style */
+div.module>h2+p+p{
+
+  background:gray;
+}
+div.module div+div> h2{
+  background: lightslategrey;
+}
