@@ -1,0 +1,89 @@
+.container {
+  border: 2px solid red;
+  padding: 10px;
+  height: 275px;
+
+}
+.square{
+border: 2px solid dodgerblue;
+background-color: white;
+float: left;
+padding: 10px;
+width: 100px;
+height: 100px;
+z-index: 1;
+position: absolute;
+top: 20px;
+left: 15px;
+
+}
+.square1{
+border: 2px solid dodgerblue;
+background-color: white;
+float: left;
+padding: 10px;
+width: 100px;
+height: 100px;
+z-index: 1;
+position: absolute;
+top: 20px;
+left:150px;
+}
+.square2{
+border: 2px solid dodgerblue;
+background-color: white;
+float: left;
+padding: 10px;
+width: 100px;
+height: 100px;
+z-index: 1;
+position: absolute;
+top: 20px;
+left: 285px;
+}
+
+.square3{
+border: 2px solid dodgerblue;
+background-color: white;
+float: left;
+padding: 10px;
+width: 100px;
+height: 100px;
+z-index: 1;
+position: absolute;
+top: 170px;
+left:15px;
+}
+.square4{
+border: 2px solid dodgerblue;
+background-color: white;
+float: left;
+padding: 10px;
+width: 100px;
+height: 100px;
+z-index: 1;
+position: absolute;
+top: 170px;
+left:150px;
+}
+.square5{
+border: 2px solid dodgerblue;
+background-color: white;
+float: left;
+padding: 10px;
+width: 100px;
+height: 100px;
+z-index: 1;
+position: absolute;
+top: 170px;
+left:285px;
+}
+
+
+
+
+
+
+
+
+/* tutaj twoje style */

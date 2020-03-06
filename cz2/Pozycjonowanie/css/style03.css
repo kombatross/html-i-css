@@ -1,0 +1,65 @@
+body, html{
+    /* height: 100%; */
+}
+
+.nakladka{
+    background-color: blue;
+    z-index: 1;
+    width: 500px ;
+    height: 335px;
+    opacity: 0.2;
+    top: 9px;
+    position: absolute;
+}
+
+.project-img{
+    z-index: 1;
+    /* position: absolute; */
+    
+}    
+
+.project-over{
+position: absolute;
+top: 400px
+
+}
+
+.project-technology{
+position: absolute;
+top: -220px;
+text-align: center;
+left: 170px;
+width: 200px;
+
+}
+
+.html
+{
+    border: 1px solid blue;
+border-radius: 30px 30px 30px 30px;
+float: left;
+padding: 2px`;
+}
+
+.css{
+    border: 1px solid blue;
+    border-radius: 30px 30px 30px 30px;
+    float: left;
+    padding: 2px;
+}
+
+.js{
+    border: 1px solid blue;
+    border-radius: 30px 30px 30px 30px;
+    float: left;
+    padding: 2px;
+}
+
+.project-title{
+    color: white;
+    top: -270px;
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    left: 100px;
+}
