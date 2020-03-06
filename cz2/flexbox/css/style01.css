@@ -1,0 +1,25 @@
+body{
+
+}
+
+.container{
+    background-color: rgb(235, 42, 42);
+    width: 320px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 160px;
+    font-size: 24px;
+    
+}
+
+.menu{
+    align-self: flex-end;
+    font-size: 17px;
+    top: 20px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}

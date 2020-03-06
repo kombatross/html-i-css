@@ -1,0 +1,28 @@
+body{
+
+}
+
+
+.container{
+
+display: flex;
+justify-content: space-evenly;
+}
+
+img{
+ width: 100%;
+
+
+
+}
+
+.project{
+    box-sizing: border-box;
+    border: 2px black solid;
+    width: 400px;
+    padding: 8px;
+   
+}
+
+
+

@@ -1,0 +1,19 @@
+body{
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Kolko{
+border-radius: 50%;
+background-color: orange;
+height: 150px;
+width: 150px;
+
+
+
+}

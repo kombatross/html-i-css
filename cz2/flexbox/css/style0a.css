@@ -1,0 +1,50 @@
+body{
+/* box-sizing: border-box; */
+
+
+}
+
+.kontener{
+
+
+border: 3px solid black;
+border-radius: 8px;
+display: flex;
+padding: 10px;
+max-width:500px;
+}
+
+.adam{
+    font-size: 24px;
+
+}
+
+.hobby{
+    font-size: 16px;
+}
+
+
+.btn{
+border: 1px solid gray;
+border-radius: 30px;
+width: 130px;
+padding: 10px;
+box-shadow: 0 0 4px gray;
+/* float: right; */
+box-sizing: 30px;
+display: flex;
+align-self: flex-end;
+}
+
+.osobny{
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-start; */
+    /* justify-content: right; */
+
+}
+.avatar{
+    height: 200px;
+    width: 200px;
+}
+
