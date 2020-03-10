@@ -27,13 +27,13 @@ body{
     background-size: cover;
     height: 100vh;
     filter: opacity(75%);
-
+	background-attachment:fixed;
 }
 
 .logo{
-   
+
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     width: 80%;
     margin: 0 auto  ;
 }
@@ -46,11 +46,12 @@ body{
     font-size: 30px;
 }
 
- .menu:hover{ 
+ .menu:hover{
     background-color: rgba(19, 18, 18, 0.788);
     border: 2px gray solid;
     padding: 8px;
     transition: 1s linear;
+	cursor: pointer;
 }
 
 .napisy_na_tle{
@@ -63,7 +64,7 @@ body{
 }
 
 .car_sharing{
-    
+
     width: 80%;
     font-size: 50px;
     color: white;
@@ -96,7 +97,7 @@ body{
 }
 
 .share_a_car{
-    
+
     font-size: 16px;
     color: white;
     background-color: red;
@@ -132,8 +133,8 @@ body{
 .white_bar{
     margin-top: -17.5px;
     background-color: white;
-    height: auto;  
-    width: 80% ;  
+    height: auto;
+    width: 80% ;
     display: flex   ;
     flex-direction: column;
     margin: 0 auto;
@@ -142,7 +143,7 @@ body{
 .colorcar{
     color: red;
     font-size: 48px;
-    
+
 }
 .redcar{
     color: black;
@@ -174,7 +175,7 @@ body{
 .gray_bar{
     width: 80%;
     background-color: gray;
-    height: auto;  
+    height: auto;
     display: flex   ;
     flex-direction: column;
     margin: 0 auto;
@@ -205,12 +206,12 @@ body{
 
 .our-service{
     width: 100%;
-    
+
 }
 
 .our-service1{
     width: 80%;
-    height: auto;  
+    height: auto;
     display: flex   ;
     flex-direction: column;
     margin: 0 auto;
@@ -219,7 +220,7 @@ body{
 
 .dwa-auta{
         width: 550px;
-        
+
 }
 
 .two-cars{
@@ -227,6 +228,7 @@ body{
     flex-direction: row;
     /* flex-wrap: wrap ; */
     font-size: 16px;
+    padding: 20px;
 }
 
 .paragrafy{
@@ -239,7 +241,54 @@ body{
 .readmore1{
     width: 100px;
     color: white;
-    background-color: red;  
+    background-color: red;
     border-radius: 20px;
     padding: 10px;
+}
+
+
+.footer{
+  width: 100%;
+
+}
+
+.infooter{
+  width: 80%;
+  background-color: #525252;
+  height: auto;
+  display: flex   ;
+  /* flex-direction: ; */
+  margin: 0 auto;
+}
+
+.img-for-footer{
+  padding: 10px;
+  width: 150px;
+}
+
+.ogolny{
+  display: flex;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  justify-content: space-between;
+}
+.czerwony{
+  color: red;
+}
+.boxbox{
+  display: flex;
+}
+.box{
+  width: 400px;
+}
+.copyright{
+  width: 400px;
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  top: 300px;
 }
